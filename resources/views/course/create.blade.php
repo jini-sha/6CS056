@@ -1,5 +1,5 @@
 <x-layouts.app title="Create Course">
-    <h1>Create Course</h1>
+    <h1>Courses</h1>
 
     <form action="{{ route('courses.store') }}" method="POST">
         @csrf
